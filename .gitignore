@@ -1,13 +1,9 @@
-# =========================
-# Backend (Python / FastAPI)
-# =========================
-
 # Virtual Environment
 backend/venv/
 venv/
 env/
 
-# Environment Variables (NEVER COMMIT YOUR API KEY)
+# Environment Variables 
 .env
 backend/.env
 
@@ -17,10 +13,7 @@ __pycache__/
 *$py.class
 .pytest_cache/
 
-# =========================
-# Frontend (React / Vite)
-# =========================
-
+# Frontend 
 # Node Dependencies
 frontend/node_modules/
 node_modules/
@@ -34,9 +27,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# =========================
-# OS & Editor Specific Files
-# =========================
+# OS & Editor Specific File
 
 # Windows & macOS system files
 .DS_Store
