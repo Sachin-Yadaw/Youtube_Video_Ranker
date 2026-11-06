@@ -67,10 +67,10 @@ export default function App() {
             {/* Category Tabs */}
             <div className="flex justify-center gap-4 mb-6">
               <button onClick={() => setVideoType("long")} className={`px-6 py-2 rounded-full font-bold transition ${videoType === "long" ? "bg-purple-600 text-white" : "bg-slate-800 text-slate-400 hover:bg-slate-700"}`}>
-                Detailed Lectures
+                Detailed Videos
               </button>
               <button onClick={() => setVideoType("short")} className={`px-6 py-2 rounded-full font-bold transition ${videoType === "short" ? "bg-rose-600 text-white" : "bg-slate-800 text-slate-400 hover:bg-slate-700"}`}>
-                Shorts (&lt; 60s)
+                Shorts (&lt; 120s)
               </button>
             </div>
 

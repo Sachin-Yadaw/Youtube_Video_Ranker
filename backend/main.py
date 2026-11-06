@@ -217,7 +217,7 @@ def calculate_composite(vid: str, details: dict, comment_data: dict, dislikes: i
         likes=details["likes"],
         dislikes=dislikes,
         duration_formatted=format_duration(details["duration_sec"]),
-        is_short=(details["duration_sec"] <= 60),
+        is_short=(details["duration_sec"] <= 120),
         summary_phrase=comment_data["summary"],
         relevance_score=round(R, 1),
         comment_score=round(C, 1),
